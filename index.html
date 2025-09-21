@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tema Estações</title>
+ 
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container" id="app">
+    <h1 id="titulo">Estação</h1>
+    <p id="descricao">Passe o mouse sobre os botões para mudar o tema.</p>
+
+    <div class="season-btns">
+  <button onclick="setSeason('primavera')">🌸 Primavera</button>
+  <button onclick="setSeason('verao')">☀️ Verão</button>
+  <button onclick="setSeason('outono')">🍂 Outono</button>
+  <button onclick="setSeason('inverno')">❄️ Inverno</button>
+</div>
+
+
+    <div class="card">
+      <img id="preview-img" src="" alt="Imagem da estação" />
+    </div>
+  </div>
+
+  <div id="log"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
